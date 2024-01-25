@@ -9,22 +9,30 @@
 <body>
     <!-- identification of the website and the search  -->
     <div class="header"> 
-        <img src="photos\logo.png" alt="">
+        <img src="photos\logo.png" alt="" id="logo">
 
-        <form action="">
+        <form action="" id="input-form">
             <input type="text"  id="input-text" placeholder="Search for Images">
             <button id="search_button"> Enter</button>
         </form>
     </div>
 
+    <!-- Body contents -->
     <div class="search_results">
         <div class="search_result">
             <img src="photos\beifong.jpg" alt="City streets of Beifong">
             <a href="https://unsplash.com/photos/a-busy-city-street-at-night-with-people-crossing-the-street-usgZMzx6bC4" target="_blank">City Streets of Beifong</a>
         </div>
-
+        <div class="search_result">
+            <img src="photos\indian.jpg" alt="Underwaters of Indian">
+            <a href="https://unsplash.com/photos/a-person-swimming-in-the-ocean-with-a-lot-of-fish-HXW26Gw8bk4" target="_blank">Underwaters of Indian</a>
+        </div>
+        <div class="search_result">
+            <img src="photos\waadi_rum.jpg" alt="Sands of Waadi Rum">
+            <a href="https://unsplash.com/photos/a-person-standing-in-the-middle-of-a-desert-wSJmlKMecHU" target="_blank">Sands of Waadi Rum</a>
+        </div>
     </div>
-
+    <button id="show_more_button">Show More</button>
 
     <script src="script.js"></script>
 </body>
